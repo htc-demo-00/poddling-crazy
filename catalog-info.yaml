@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "poddling-crazy"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-00"
+    "humanitec.com/appId": "poddling-crazy"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
